@@ -6,7 +6,7 @@ const animal = document.getElementById('animal-div');
     // console.log(showButton, animal); works!
 // set event listeners 
 showButton.addEventListener('click', () => {
-    console.log('show button clicked');
+    //console.log('show button clicked');
     
 });
     // get user input
