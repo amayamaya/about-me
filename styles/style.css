@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 body {
     /* feel free to update these css variables for a quick theme */
 
@@ -38,11 +38,14 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    background-image: linear-gradient(orange, purple, aqua);
+
 }
 
 section {
     background-color: var(--color5);
-    max-width: 80%;
+    padding: 5em;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,32 +54,38 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
 }
 
 header {
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: white;
     height: var(--header-height);
     box-shadow: var(--shadow);
+    justify-content:center;
+    height: 100px;
+    background:url(https://cdn.pixabay.com/photo/2015/06/22/11/07/rose-817431_960_720.jpg)center;
+}
+
+h1 {
+    color: white;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2em;
     font-weight: bold;
-}
+    font-family:cursive}
 
 .gutter-right {
     margin-right: 20px;
 }
 
 header img {
-    height: var(--header-height);
+    height: 100px
 }
 
 p {
     margin: var(--gutter);
+    align-content: center;
 }
 
 footer {
@@ -91,4 +100,14 @@ footer {
 
 .hidden {
     display: none;
+}
+
+.animal-button {
+    background-color:black;
+    padding: 15px 32px;
+}
+
+.animal-div {
+    margin: 50px, 50px, 50px, 50px;
+    align-content: center;
 }
